@@ -1,0 +1,16 @@
+POST https://4b69-195-158-30-84.in.ngrok.io/api/telegram
+Content-Type: application/json
+
+{
+
+}
+###
+GET https://api.telegram.org/bot6159804786:AAHDtTrexOPOqclr7rhPz8SkEwiB6eC7Jx8/setWebhook?url=https://796c-213-230-118-101.ngrok.io/api/telegram
+###
+POST https://api.telegram.org/bot6159804786:AAHDtTrexOPOqclr7rhPz8SkEwiB6eC7Jx8/sendMessage
+Content-Type: application/json
+
+{
+  "chat_id": "856845004",
+  "text": "nma gap"
+}

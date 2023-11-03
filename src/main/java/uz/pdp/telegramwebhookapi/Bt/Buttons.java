@@ -1,0 +1,71 @@
+package uz.pdp.telegramwebhookapi.Bt;
+
+import java.security.SecureRandom;
+import java.util.UUID;
+
+public interface Buttons {
+    //    String SHOW_KURS="\uD83D\uDC40 Kursni ko'rish";
+//    String KONVERTATSIYA="\uD83D\uDCB6 Konvertatsiya qilish";
+//    String ALOQA="\uD83D\uDCAC Biz bilan aloqa";
+//    String BUGUN="Bugun";
+//    String KECHA="Kecha";
+//    String NEW="new";
+//    String SANA_STATE="sanaState";
+//    String KURS_STATE="kursState";
+//    String KECHA_KURS_STATE="kechaKurs";
+//    String KIRITISH_KURS_STATE="Vaqtni_kiritish";
+//    String SANA_KIRITSH_STATE="sana_kirtish";
+//    String ALOQA_STATE="aloqa_state";
+//    String TAKLIF_STATE="taklif_state";
+//    String AMOUNT_STATE="pul_kiritish_state";
+//    String KONVERTATSIYA_STATE="Konvertatsiya_state";
+//    String KON_TANLASH_STATE="tanlash_state";
+//    String USD="\uD83D\uDCB5USD";
+//    String EUR="\uD83D\uDCB6EUR";
+//    String RUB="\uD83D\uDCB7RUB";
+//    String ALL_COURCE="\uD83E\uDD11Barcha kurslar";
+//    String CHOOSE_DATE="Sana tanlash";
+//    String KIRITIDIM="kiritdim";
+//    String ADMIN="Admin\uD83D\uDCDE";
+//    String USD_UZS="USD->UZS";
+//    String UZS_USD="UZS->USD";
+//    String EUR_UZS="EUR->UZS";
+//    String UZS_EUR="UZS->EUR";
+//    String RUB_UZS="RUB->UZS";
+//    String UZS_RUB="UZS->RUB";
+//    String TANLASH="\uD83C\uDFE6 Tanlash";
+//    String VIEW_OFFERS="view offers 🙈";
+//    String SHOW_USERS="show users \uD83D\uDC40";
+//    String BLOCKED_USERS="Blocked users \uD83E\uDE93";
+//    String TAKLIF="Taklif bildirish\uD83D\uDCDD";
+    String MODERATOR = "Moderator \uD83D\uDCF1";
+    String PLANE = "Plane ✈️";
+    String AERODROM = "Aerodrom \uD83D\uDEEB";
+    String SOLDTICKETS = "Sold Tickets \uD83D\uDC40";
+    String PLANE_ADD = "Add plane";
+    String PLANE_EDIT = "Edit plane";
+    String PLANE_DELETE = "Delete plane";
+    String PLANES_SHOW = "Show planes";
+    String AER_ADD = "Add Aerodrom";
+    String AER_EDIT = "Edit Aerodrom";
+    String AER_DELETE = "Delete Aerodrom";
+    String AERS_SHOW = "Show Aerodroms";
+    String AER_SHOW = "Show Aerodrom";
+    String UZBEKISTAN="Uzbekistan \uD83C\uDDFA\uD83C\uDDFF";
+    UUID IdUZBEKISTAN= UUID.fromString("d5e80f4b-a526-447e-a6b8-13aacf435a2b");
+    UUID IdRUSSIA= UUID.fromString("fe00622f-51f0-4611-a41c-ad0aaedcfa9b");
+    UUID IdAMERICA= UUID.fromString("0c1e9198-97ab-4ef8-9647-7318f0cd969a");
+    String RUSSIA="Russia \uD83C\uDDF7\uD83C\uDDFA";
+    String AMERICA="America \uD83C\uDDFA\uD83C\uDDF8";
+    String EXIT = "◀️ Exit";
+    String OK = "✅";
+    String X = "❌";
+    String NAME="\uD83D\uDCE9 name";
+    String COUNTRY="\uD83C\uDFF3️ country";
+    String COMPANY_NAME="\uD83D\uDCDD company name";
+    String PLANE_NUMBER="\uD83D\uDCCB plane number";
+    String SEATS_NUMBER="\uD83D\uDCCB plane seats number";
+    String PLANE_AERODROME="\uD83D\uDEE9 aerodrome";
+
+
+}
